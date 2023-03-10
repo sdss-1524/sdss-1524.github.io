@@ -1,0 +1,15 @@
+#site-title{
+  background-image: -webkit-linear-gradient(right bottom, #0b5365, #c6c3ad, #2b90aa);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-background-size: 200% 100%;
+}
+
+#subtitle{
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+  background-image: -webkit-linear-gradient(left, #FFF886, #F072B6);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-background-size: 200% 100%;
+}

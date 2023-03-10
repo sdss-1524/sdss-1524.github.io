@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>wait2learn</title>
+      <link href="/2023/03/09/wait2learn/"/>
+      <url>/2023/03/09/wait2learn/</url>
+      
+        <content type="html"><![CDATA[<h2 id="自定义弹窗"><a href="#自定义弹窗" class="headerlink" title="自定义弹窗"></a>自定义弹窗</h2><h2 id="首页轮播图"><a href="#首页轮播图" class="headerlink" title="首页轮播图"></a>首页轮播图</h2><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><h2 id="优先文章"><a href="#优先文章" class="headerlink" title="优先文章"></a>优先文章</h2><h2 id="优化黑暗模式"><a href="#优化黑暗模式" class="headerlink" title="优化黑暗模式"></a>优化黑暗模式</h2><h2 id="轮播公告"><a href="#轮播公告" class="headerlink" title="轮播公告"></a>轮播公告</h2>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> beauty </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>write_help</title>
+      <link href="/2023/03/08/write-help/"/>
+      <url>/2023/03/08/write-help/</url>
+      
+        <content type="html"><![CDATA[<hr><p>write article:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new title</span><br><span class="line">hexo clean &amp;&amp; g &amp;&amp; d</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>article</title>
+      <link href="/2023/03/08/article/"/>
+      <url>/2023/03/08/article/</url>
+      
+        <content type="html"><![CDATA[<h1 id="复变函数"><a href="#复变函数" class="headerlink" title="复变函数"></a>复变函数</h1><h3 id="复数"><a href="#复数" class="headerlink" title="复数"></a>复数</h3><p>三种表示：<br>$$<br>z&#x3D;x+yi&#x3D;re^{iArgz}&#x3D;e(cosArgz+isinArgz)<br>$$<br>区域是连通的开集</p><p>复数就是复合的数，实部虚部复合起来的数</p><h3 id="复变函数-1"><a href="#复变函数-1" class="headerlink" title="复变函数"></a>复变函数</h3><p>一般来说复变函数是单值的，也存在多值情况，多值来自于宗量幅角的多值性</p><p>复变函数即是将z平面的值映射到f平面，存在一一对应或者一多对应的关系</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">flowchart LR</span><br><span class="line">id1[可导/可微]</span><br><span class="line">id2[连续]</span><br><span class="line">id1 --&gt;id2</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>复变函数总是与一定区域相联系的，区域内可导与区域内解析相同，点可导并不表示点解析，区域可导推出区域解析</p><p>&#x3D;&#x3D;定理&#x3D;&#x3D;：复变函数在点$z$可导的充要条件是实部虚部在$z$点可微且满足C-R方程</p><p>&#x3D;&#x3D;定理&#x3D;&#x3D;：复变函数在区域D解析的充要条件是实部虚部在D内可微且满足C-R方程</p><p>&#x3D;&#x3D;定理&#x3D;&#x3D;：复变函数在区域D内解析的充分必要条件是实部虚部互为共轭调和函数</p><p>&#x3D;&#x3D;定理&#x3D;&#x3D;：调和函数在区域D内有二阶连续偏导数且满足二维拉普拉斯方程</p><p>PS：仅满足C-R方程是复变函数解析的必要条件，满足C-R说明存在一阶可导但解析函数</p><hr><p>补充：</p><p><img src="C:\Users\sdss\AppData\Roaming\Typora\typora-user-images\image-20230113002237123.png" alt="image-20230113002237123"></p><p>可微在曲线上意味着曲线可以由多个分段直线表示，在曲面上意味着可以由多个分块平面表示，分块平面表示在该点的各个方向上方向导数均存在，但可偏导仅表示两个方向上存在偏导两个方向上可微，推不出来点可微，由偏导数连续可以推出来可微，个人理解是偏导数连续是区域上的问题，两块平面的偏导数连续，而可微是点的问题，是该一块平面上的问题，<br>$$<br>可微：\frac{\Delta f-f_x\Delta x-f_y\Delta y}{\rho}|_{\Delta\rightarrow 0}&#x3D;0<br>$$</p><hr><p>解析的复变函数的实部虚部均为调和函数：<br>$$<br>f(x,y)&#x3D;u(x,y)+iv(x,y) \qquad \nabla^2u&#x3D;\nabla^2v&#x3D;0 \<br>C-R: \frac{\part u}{\part x}&#x3D;\frac{\part v}{\part y}\qquad \frac{\part u}{\part y}&#x3D;-\frac{\part v}{\part x}<br>$$<br>由于实部与虚部由C-R方程联系，可以通过实部求虚部或者通过虚部求实部::one:偏积分法:two:路径积分法</p><p>PS：全微分的积分与路径无关</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数理方法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数理方法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/03/08/hello-world/"/>
+      <url>/2023/03/08/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
